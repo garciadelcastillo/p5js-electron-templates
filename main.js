@@ -1,8 +1,13 @@
 const electron = require('electron')
+
 // Module to control application life.
 const app = electron.app
+
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
+
+// Modules to control application life and create native browser window
+// const {app, BrowserWindow} = require('electron')
 
 const path = require('path')
 const url = require('url')
@@ -15,7 +20,11 @@ function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
-    height: 600
+    height: 600,
+    // frame: false,
+    // center: true,
+    // resizable: false,
+    // useContentSize: true  // sets the sizes to the active window. resulting app with frames will be larger
   })
 
   // and load the index.html of the app.
@@ -26,7 +35,7 @@ function createWindow() {
   }))
 
   // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
+  mainWindow.webContents.openDevTools("undock")
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function() {
