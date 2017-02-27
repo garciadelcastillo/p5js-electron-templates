@@ -30,6 +30,10 @@ function mousePressed() {
   }
 }
 
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight)
+}
+
 
 function Easer(xpos, ypos, diameter, newEasing) {
   this.x = xpos
