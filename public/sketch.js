@@ -10,8 +10,8 @@ function setup() {
   background(255)
 
   for (let i = 0; i < easerCount; i++) {
-    let e = new Easer(width / 2, height / 2, diameter, easing);
-    easer.push(e);
+    let e = new Easer(width / 2, height / 2, diameter, easing)
+    easer.push(e)
   }
 }
 
