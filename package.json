@@ -18,6 +18,7 @@
   "author": "Jose Luis Garcia del Castillo",
   "license": "tbd",
   "devDependencies": {
-    "electron": "^1.4.1"
+    "electron": "^1.4.1",
+    "electron-reload": "^1.2.2"
   }
 }
