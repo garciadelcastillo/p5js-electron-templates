@@ -35,6 +35,22 @@ npm install
 npm start
 ```
 
+## Package
+
+### macOS
+
+Build you app as an `.app` (and installable `.dmg`) for macOS.
+
+For now, you need to comment the line of `electron-reload` in `main.js` for the packaged app to run.
+
+```
+npm run dist
+```
+
+### Windows & Linux
+
+TODO
+
 ## Other Example Apps
 
 For more example apps, see the

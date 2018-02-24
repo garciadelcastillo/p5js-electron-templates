@@ -1,3 +1,7 @@
+# macos
+.DS_Store
+*.DS_Store
+
 # Logs
 logs
 *.log
@@ -35,3 +39,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# packaged app
+build
+dist
