@@ -1,23 +1,8 @@
-# electron-p5js-template
+# Electron p5.js Tempalte
 
-A quick boilerplate project to create Electron apps running p5.js sketches
+A quick boilerplate project to create Electron apps running p5.js sketches.
 
-Clone and run for a quick way to see p5.js in action.
-
-## Usage
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/garciadelcastillo/electron-p5js-quick-start
-# Go into the repository
-cd electron-p5js-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
+***
 
 This is a minimal Electron application with p5.js based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
 
@@ -32,6 +17,23 @@ A basic Electron application needs just these files:
 You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/).
+
+## Usage
+
+To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
+
+From your command line:
+
+```bash
+# Clone this repository
+git clone https://github.com/garciadelcastillo/electron-p5js-quick-start
+# Go into the repository
+cd electron-p5js-quick-start
+# Install dependencies
+npm install
+# Run the app
+npm start
+```
 
 ## Other Example Apps
 
