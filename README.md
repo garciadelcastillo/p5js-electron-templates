@@ -1,6 +1,6 @@
-# Electron p5.js Tempalte
+# Electron p5.js Templates
 
-A quick boilerplate project to create Electron apps running p5.js sketches.
+A set of templates to create p5.js Electron apps.
 
 ***
 
